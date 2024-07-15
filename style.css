@@ -48,15 +48,18 @@ button {
   background-color: #f8db35;
 }
 
-.wrapper--formSubscribe input:hover::placeholder {
+.container--formSubscribe:hover
+  .formSubscribe
+  .wrapper--formSubscribe
+  > input::placeholder {
   color: #fea00e;
 }
 
-.wrapper--formSubscribe input:hover {
+.container--formSubscribe:hover .formSubscribe .wrapper--formSubscribe input {
   background-color: #ddd;
 }
 
-.wrapper--formSubscribe button:hover {
+.container--formSubscribe:hover .formSubscribe .wrapper--formSubscribe button {
   background-color: #fea00e;
   color: #fff;
   cursor: pointer;
